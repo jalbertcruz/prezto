@@ -37,9 +37,9 @@ version is 4.3.17.
 
   4. Set Zsh as your default shell:
 
-        `chsh -s /bin/zsh`
+        `chsh -s $(which zsh)`
 
-  4.1 `sudo vi /etc/passwd`
+  4.1 Or: `sudo vi /etc/passwd`
 
   5. Open a new Zsh terminal window or tab.
 
