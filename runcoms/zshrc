@@ -4,6 +4,12 @@
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
 
+export LC_ALL="en_US.UTF-8"
+export LC_CTYPE="en_US.UTF-8"
+
+export TMPDIR=~/tmp
+export PATH=$PATH:~/.local/bin
+source ~/.local/bin/virtualenvwrapper.sh
 
 autoload -Uz promptinit
 promptinit
@@ -27,14 +33,14 @@ function tmuxkill() {
 }
 # }}}
 
-source ~/.toolsconfig/alias
+#source ~/.toolsconfig/alias
 
 fpath=(~/appslnx/zsh-completions/src $fpath)
 
 #. /home/j/appslnx/erlang/19.0/activate
 
 
-source ~/.toolsconfig/env-variables
+#source ~/.toolsconfig/env-variables
 
 #. /home/j/appslnx/opt/erlang/19.0/activate
 
